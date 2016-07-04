@@ -1,0 +1,21 @@
+<template>
+    <section>
+        <h2>${heading}</h2>
+
+        <form submit.trigger="submit()">
+                <div>
+                    <label for="">Primeiro Nome</label>
+                    <input type="text" value.bind="firstName">
+                </div>
+                <div>
+                    <label for="">Ultimo Nome</label>
+                    <input type="text" value.bind="lastName">
+                </div>
+                <div>
+                    <label for="">Nome Completoo</label>
+                    <p>${fullName}</p>
+                </div>                
+                <button type="">Enviar</button>
+        </form>
+    </section>
+</template>
